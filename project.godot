@@ -1,0 +1,41 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Spatial",
+"class": "SceneMap",
+"language": "GDScript",
+"path": "res://Assets/scene_map/scene_map.gd"
+}, {
+"base": "Resource",
+"class": "ScenePalette",
+"language": "GDScript",
+"path": "res://Assets/scene_map/scene_palette.gd"
+} ]
+_global_script_class_icons={
+"SceneMap": "res://Assets/scene_map/scene_map.svg",
+"ScenePalette": "res://Assets/scene_map/scene_palette.svg"
+}
+
+[application]
+
+config/name="Tile Map"
+run/main_scene="res://Screens/MainScreen.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="challange:01"
+config/icon="res://icon.png"
+
+[global]
+
+input=false
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
