@@ -417,9 +417,6 @@ texture = ExtResource( 4 )
 position = Vector2( 101.297, 527.758 )
 shape = SubResource( 5 )
 
-[node name="hitboxes" type="KinematicBody2D" parent="."]
-position = Vector2( -0.575821, 0.879814 )
-
 [node name="Coins" type="Node2D" parent="."]
 
 [node name="coin" parent="Coins" instance=ExtResource( 1 )]

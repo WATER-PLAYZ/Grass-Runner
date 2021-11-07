@@ -23,5 +23,17 @@ func _process(delta):
 	velocity = move_and_slide(velocity,Vector2(0,-1))
 
 
+
+
 func _on_body_entered(body):
-	get_tree().change_scene("res://game_over_1.tscn")
+	get_tree().change_scene("res://Levels/mian2.tscn")
+
+
+
+
+
+
+
+
+func _on_void_body_entered(body):
+	get_tree().change_scene("res://Levels/game_over_2.tscn")

@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Tile Map"
-run/main_scene="res://Screens/MainScreen.tscn"
+run/main_scene="res://Levels/main.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="challange:01"
 config/icon="res://icon.png"
@@ -35,6 +35,24 @@ config/icon="res://icon.png"
 [global]
 
 input=false
+
+[input]
+
+ui_left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"unicode":0,"echo":false,"script":null)
+ ]
+}
 
 [rendering]
 
